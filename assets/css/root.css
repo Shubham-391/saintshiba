@@ -1,0 +1,26 @@
+:root {
+    /* bg-color */
+    --bg-black1: #080502;
+    --bg-black2: rgba(12, 11, 11, 0.00);
+    --bg-black3: #0C0B0B;
+    --bg-black4: rgba(255, 255, 255, 0.05);
+    --bg-black5: rgba(255, 255, 255, 0.00);
+    --bg-black6: #1D1A1A;
+    --bg-black7: #151313;
+    --bg-yellow: #FFA800;
+    --bg-orange: #F06500;
+
+    /* color */
+    --orange: rgba(240, 101, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+    --burlywood: burlywood;
+
+    /* font-size */
+    --vvs: 14px;
+    --vs: 18px;
+    --s: 22px;
+    --m: 28px;
+    --l: 36px;
+    --xl: 48px;
+    --xxl: 96px;
+}
