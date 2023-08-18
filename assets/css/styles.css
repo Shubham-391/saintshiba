@@ -183,7 +183,7 @@ ul {
     border-radius: 10px;
     background: linear-gradient(136deg, 0% var(--bg-black4), var(--bg-black5) 100%);
     backdrop-filter: blur(16px);
-    border: 1px solid #6B6A69;
+    border: 1px solid var(--grey2);
     z-index: 1;
     bottom: 114px;
 }
@@ -320,8 +320,8 @@ ul {
     min-height: 574px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
-    border: 1px solid #3F3E3E;
+    background: linear-gradient(136deg, var(--bg-black4) 0%, var(--bg-black5) 100%);
+    border: 1px solid var(--grey);
     border-bottom: none;
 }
 
@@ -341,8 +341,8 @@ ul {
     max-width: 424px;
     height: 154px;
     border-radius: 10px;
-    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
-    border: 1px solid #3F3E3E;
+    background: linear-gradient(136deg, var(--bg-black4) 0%, var(--bg-black5) 100%);
+    border: 1px solid var(--grey);
     padding: 16px 20px 22px 20px;
     margin: 0 auto;
 }
@@ -371,15 +371,15 @@ ul {
 }
 
 .tokecon:hover {
-    background: linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: linear-gradient(136deg, var(--bg-black8) 0%, var(--bg-black5) 100%);
 }
 
 .buying:hover .when-num {
-    color: #F06500;
+    color: var(--orange);
 }
 
 .sell:hover .when-num {
-    color: #F06500;
+    color: var(--orange);
 }
 
 .box {
@@ -389,27 +389,27 @@ ul {
 }
 
 .color1 {
-    background: #00E396;
+    background: var(--bg-green1);
 }
 
 .color2 {
-    background: #F06500;
+    background: var(--bg-orange);
 }
 
 .color3 {
-    background: #8B35E2;
+    background: var(--bg-purple);
 }
 
 .color4 {
-    background: #00B2FF;
+    background: var(--bg-blue);
 }
 
 .color5 {
-    background: var(--yellow, #FFA800);
+    background: var(--bg-orange);
 }
 
 .color6 {
-    background: #FF4560;
+    background: var(--bg-red);
 }
 
 
@@ -442,14 +442,14 @@ table {
     border-spacing: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: linear-gradient(136deg, var(--bg-black4) 0%, var(--bg-black5) 100%);
 }
 
 tr,
 th,
 td {
     min-height: 68px;
-    border: 1px solid rgb(63, 62, 62);
+    border: 1px solid var(--grey3);
 }
 
 tr th {
@@ -463,23 +463,23 @@ tr td {
 }
 
 tr:first-of-type th:first-of-type {
-    border-left: 1px solid rgb(63, 62, 62);
+    border-left: 1px solid var(--grey3);
 }
 
 tr td:first-of-type {
-    border-left: 1px solid rgb(63, 62, 62);
+    border-left: 1px solid var(--grey3);
 }
 
 tr td:last-of-type {
-    border-right: 1px solid rgb(63, 62, 62);
+    border-right: 1px solid var(--grey3);
 }
 
 tr:last-of-type td {
-    border-bottom: 1px solid rgb(63, 62, 62);
+    border-bottom: 1px solid var(--grey3);
 }
 
 tr:first-of-type th:last-of-type {
-    border-right: 1px solid rgb(63, 62, 62);
+    border-right: 1px solid var(--grey3);
 }
 
 tr:last-of-type td:first-of-type {
@@ -496,7 +496,7 @@ th {
 
 tr:hover {
     border: none;
-    background: #0C0C0C;
+    background: var(--bg-black9);
 }
 
 tr:hover th {
@@ -522,20 +522,20 @@ th:hover {
 }
 
 thead>tr {
-    color: #FFF;
+    color: var(--white);
     text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--vs);
     font-style: normal;
     font-weight: 600;
     line-height: 180%;
 }
 
 tbody>tr {
-    color: #FFF;
+    color: var(--white);
     text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--vs);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -560,8 +560,8 @@ tbody>tr {
 
 .timehead {
     color: var(--white);
-    font-family: Poppins;
-    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--l);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -569,8 +569,8 @@ tbody>tr {
 
 .timetext {
     color: var(--white);
-    font-family: Poppins;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--vs);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
@@ -581,7 +581,7 @@ tbody>tr {
     content: '';
     position: absolute;
     width: 5px;
-    background-color: white;
+    background-color: var(--bg-white);
     top: 0;
     bottom: 0;
 }
@@ -596,7 +596,7 @@ tbody>tr {
     position: absolute;
     width: 36px;
     height: 36px;
-    background: linear-gradient(180deg, #FFA800 0%, #F06500 100%);
+    background: linear-gradient(180deg, var(--bg-yellow) 0%, var(--bg-orange) 100%);
     border-radius: 50%;
     z-index: 1;
     top: -5px;
@@ -613,10 +613,10 @@ tbody>tr {
 
 /* footer */
 .faq {
-    color: #FFF;
+    color: var(--white);
     text-align: center;
-    font-family: Poppins;
-    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--xl);
     font-style: normal;
     font-weight: 600;
     line-height: 128%;
@@ -626,16 +626,16 @@ tbody>tr {
 .tab {
     width: 100%;
     overflow: hidden;
-    border: 1px solid #3D3C3C;
+    border: 1px solid var(--grey4);
     border-radius: 10px;
-    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: linear-gradient(136deg, var(--bg-black4) 0%, var(--bg-black5) 100%);
 }
 
 .tab-label {
     cursor: pointer;
-    color: var(--white, #FFF);
-    font-family: Poppins;
-    font-size: 22px;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--s);
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
@@ -652,9 +652,9 @@ tbody>tr {
 }
 
 .tab-content {
-    color: var(--white, #FFF);
-    font-family: Poppins;
-    font-size: 18px;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--vs);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
