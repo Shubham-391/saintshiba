@@ -453,9 +453,7 @@ td {
 }
 
 tr th {
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
+    border: none;
 }
 
 tr td {
